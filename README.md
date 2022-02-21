@@ -112,6 +112,7 @@ One other thing we need to keep in mind is that here we have loop for which an i
 • Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
 
 # Acknowledgements:
+- [Synopsys India]('https://www.synopsys.com/'), Founder, VSD Corp. Pvt. Ltd
 • <a href='https://www.synopsys.com/'>Synopsys India</a></br>
 • <a href='https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/'>Cloud Based Analog IC Design Hackathon</a></br>
 • [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd

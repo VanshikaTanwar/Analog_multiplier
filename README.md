@@ -1,8 +1,6 @@
 # Four-Quadrant Analog Multiplier
 This repository presents the design of Analog multiplier implemented using Synopsys Custom Compiler on 28nm Technology .
 
-This repository presents the design of Differential End CSVCO implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
-
 # Table of Contents
  * [Introduction](#Introduction)
  * [Analog Multiplier](#Analog-Multiplier)
@@ -71,29 +69,29 @@ Hence, on observing the output waveform we conclude that the given circuit becom
 
 <p align="center">
   
-  Fig. 4: Four-Quadrant Analog Multiplier
+  Fig. 3: Four-Quadrant Analog Multiplier
 </p>
 <p align="center">
   
-  Fig. 5:Four-Quadrant Analog Multiplier Symbol
+  Fig. 4:Four-Quadrant Analog Multiplier Symbol
 </p>
 
 ### Buffer:
 This component is used to convert the generated sine wave to a proper square pulse and is placed at the output of the VCO. This is nothing but a couple of inverters placed in series. 
 <p align="center">
   <img src="Images/buffer_schematic.png"></br>
-  Fig. 6: Buffer Schematic
+  Fig. 5: Buffer Schematic
 </p>
 <p align="center">
  
-  Fig. 7: Buffer Symbol
+  Fig. 6: Buffer Symbol
 </p>
 
 ### Four-Quadrant Analog Multiplier:
 The schematic of Four-Quadrant Analog Multiplier has been created using the above cells and a few transistors as shown in the below figure.
 <p align="center">
   
-  Fig. 8: Four-Quadrant Analog Multiplier Schematic
+  Fig. 7: Four-Quadrant Analog Multiplier Schematic
 </p>
 
 ## Simulations:
@@ -102,7 +100,7 @@ After creating and saving the schematic go to 'Tools' and open 'Primewave' to st
 One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
 <p align="center">
   
-  Fig. 9: Four-Quadrant Analog Multiplier Transient Analysis
+  Fig. 8: Four-Quadrant Analog Multiplier Transient Analysis
 </p>
 
 # Netlist of the Circuit:

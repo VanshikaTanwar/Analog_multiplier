@@ -113,10 +113,9 @@ One other thing we need to keep in mind is that here we have loop for which an i
 
 # Acknowledgements:
 
-- [Synopsys India](https://www.synopsys.com/), Founder, VSD Corp. Pvt. Ltd
-• <a href='https://www.synopsys.com/'>Synopsys India</a></br>
-• <a href='https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/'>Cloud Based Analog IC Design Hackathon</a></br>
-• [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
-• <a href='https://www.vlsisystemdesign.com/'>VLSI System Design (VSD) Corp. Pvt. Ltd India</a></br>
+- [Synopsys India](https://www.synopsys.com/)
+-  [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+-   [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+-   [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
 
 # References:

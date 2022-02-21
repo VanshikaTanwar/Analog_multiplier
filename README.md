@@ -1,5 +1,5 @@
 # Four-Quadrant Analog Multiplier
-This repository presents the design of Analog multiplier implemented using Synopsys Custom Compiler on 28nm Technology .
+This repository presents the design of Four-Quadrant Analog Multiplier implemented using Synopsys Custom Compiler on 28nm Technology .
 
 # Table of Contents
  * [Introduction](#Introduction)

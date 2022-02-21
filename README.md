@@ -45,7 +45,7 @@ The main purpose of designing a four-quadrant analog multiplier is to eliminate 
 <p align="center">
 	
  ![analog multipier](https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg)
-  Fig. 2: Four-Quadrant Analog Multiplier
+                            Fig. 2: Four-Quadrant Analog Multiplier
 	
 </p>
 <p>
@@ -78,7 +78,7 @@ Hence, on observing the output waveform we conclude that the given circuit becom
 ### Buffer:
 This component is used to convert the generated sine wave to a proper square pulse and is placed at the output of the VCO. This is nothing but a couple of inverters placed in series. 
 <p align="center">
-  <img src="Images/buffer_schematic.png"></br>
+
   Fig. 5: Buffer Schematic
 </p>
 <p align="center">

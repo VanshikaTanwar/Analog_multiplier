@@ -57,7 +57,7 @@ on a transistor level.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155798235-5f498f68-8dbc-44df-aac3-0d4a7163b4c4.png)"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
   Fig. 5: compilier
 </p>
 

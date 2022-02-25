@@ -65,6 +65,19 @@ So, in this paper, we are going to make the CMOS low power consumption analog mu
 <b>• Synopsys 28nm PDK:</b></br>
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
+# Synopsys Custom Compiler Tool Details
+The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
+<p align="center">
+  ![image](https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png)
+
+</p>
+
+<p align="center">
+![image](https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png)
+
+</p>
+
+
 # Pre-Layout Schematics and Simulations:
 
 ## Schematics:
@@ -73,11 +86,13 @@ So, in this paper, we are going to make the CMOS low power consumption analog mu
 
 
 <p align="center">
-  
+  ![image](https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png)
+
   Fig. 3: Four-Quadrant Analog Multiplier
 </p>
 <p align="center">
-  
+  ![image](https://user-images.githubusercontent.com/90523478/155770543-f163e8ae-70eb-4dc2-95c7-0fdd9ffe1dcb.png)
+
   Fig. 4:Four-Quadrant Analog Multiplier Symbol
 </p>
 

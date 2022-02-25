@@ -38,11 +38,9 @@ transistors m9 and m10 are directly going into the square root circuit block to 
 and v34. Here, v12 is the difference between v1 and v2 signal while v34 is the difference between v3 and v4 input signal and the resultant output signal Vout will be the
 differential output of vout1 and vout2.
 
-<p align="center">
   ![analog multipier](https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg)
   Fig. 2: Differential Delay Cell
-</p>
-<p>
+
 
 
 

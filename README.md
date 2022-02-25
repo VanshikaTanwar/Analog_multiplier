@@ -42,5 +42,10 @@ differential output of vout1 and vout2.
   Fig. 2: Differential Delay Cell
 
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg"></br>
+  Fig. 5: Differential Delay Cell Symbol
+</p>
 
 

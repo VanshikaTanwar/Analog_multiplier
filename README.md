@@ -39,7 +39,7 @@ and v34. Here, v12 is the difference between v1 and v2 signal while v34 is the d
 differential output of vout1 and vout2.
 
 <p align="center">
-  <img src="![analog multipier](https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg)"></br>
+  ![analog multipier](https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg)
   Fig. 2: Differential Delay Cell
 </p>
 <p>

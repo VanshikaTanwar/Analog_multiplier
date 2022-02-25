@@ -86,15 +86,16 @@ The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-si
 
 
 <p align="center">
-  ![image](https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png)
-
+	![circuit](https://user-images.githubusercontent.com/90523478/155775323-d113e1ff-bc7e-4bd2-add4-8f8df8b0c9c7.png)
   Fig. 3: Four-Quadrant Analog Multiplier
 </p>
+
 <p align="center">
-  ![image](https://user-images.githubusercontent.com/90523478/155770543-f163e8ae-70eb-4dc2-95c7-0fdd9ffe1dcb.png)
+  ![symbol](https://user-images.githubusercontent.com/90523478/155775543-3cb9910c-7a04-40ff-a5e3-fd2020bb4735.png)
 
   Fig. 4:Four-Quadrant Analog Multiplier Symbol
 </p>
+
 
 ### Buffer:
 This component is used to convert the generated sine wave to a proper square pulse and is placed at the output of the VCO. This is nothing but a couple of inverters placed in series. 
@@ -109,11 +110,17 @@ This component is used to convert the generated sine wave to a proper square pul
 
 ### Four-Quadrant Analog Multiplier:
 The schematic of Four-Quadrant Analog Multiplier has been created using the above cells and a few transistors as shown in the below figure.
+
 <p align="center">
-  
-  Fig. 7: Four-Quadrant Analog Multiplier Schematic
+	![symbol schmatic(a)](https://user-images.githubusercontent.com/90523478/155775620-3c79913f-1d1c-4251-9cec-ea532f07b130.png)
+
+  Fig. 5: Symbol Schematic(a)
 </p>
 
+<p align="center">
+	![symbol schmatic](https://user-images.githubusercontent.com/90523478/155775683-aaf5bafd-788e-4da7-9c5d-5acd710f59de.png)
+  Fig. 5: Symbol Schematic(b)
+</p>
 ## Simulations:
 ### Transient Analysis:
    After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.</br>

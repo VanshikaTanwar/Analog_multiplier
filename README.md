@@ -38,14 +38,35 @@ transistors m9 and m10 are directly going into the square root circuit block to 
 and v34. Here, v12 is the difference between v1 and v2 signal while v34 is the difference between v3 and v4 input signal and the resultant output signal Vout will be the
 differential output of vout1 and vout2.
 
-  ![analog multipier](https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg)
-  Fig. 2: Differential Delay Cell
-
-
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg"></br>
-  Fig. 5: Differential Delay Cell Symbol
+  Fig. 5:Four-Quadrant Analog Multiplier
 </p>
 
+Hence, on observing the output waveform we conclude that the given circuit become capable to operate with the input voltage and also the requirement of low power consumption for
+operating the circuit is also achieved.  (And also, the requirement of achieving low power consumption also met). So, a new square root circuit can be used to realize a CMOS
+four-quadrant analog multiplier has been given. For the verification purpose of the multiplier circuit, a performance simulation result has been given.
 
+# Tools Used:
+
+<b>• Synopsys Custom Compiler:</b></br>
+&emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+
+<b>• Synopsys 28nm PDK:</b></br>
+&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
+# Synopsys Custom Compiler Tool Details
+The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png"></br>
+  Fig. 5:Four-Quadrant Analog Multiplier
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
+  Fig. 5:Four-Quadrant Analog Multiplier
+</p>

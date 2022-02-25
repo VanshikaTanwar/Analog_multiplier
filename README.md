@@ -61,12 +61,38 @@ The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-si
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
   Fig. 5:Four-Quadrant Analog Multiplier
+</p>
+
+# Pre-Layout Schematics and Simulations:
+
+## Schematics:
+
+### Four-Quadrant Analog Multiplier:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png"></br>
+  Fig. 5:Four-Quadrant Analog Multiplier cell Schematic
+</p>
+
+This is the symbol of Four Quadrant Analog Multiplier as in this symbol the four circles which are shown indicates that there are 4 inputs sine signal which I have given (named
+v1,v2,v3 and v4) and the cross sign which is given in between the loop it means that it is the sign of multiplier indicating that it is multiplying the input signal and the
+output which comes as the multiplication of both the input is the resultant one which is going into the FQ_AM (Four Quadrant Analog Multiplier)  . So, the whole symbol indicates
+that as this is the symbol of FOUR QUADRANT ANALOG MULTIPLIER which takes 4 signals as input and here In this I have given the 4 sine wave input signals which are going to
+multiply (Two sine wave input signals are multiplied with each other[v1 and v3] and the other two sine wave input signal [v2 and v4] are multiplied giving the respective
+output.) by the multiplier and giving the result of the multiplication of sine wave input signal.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155788676-3f714c91-ea80-4f09-965f-174ea696c155.png"></br>
+  Fig. 5:Four-Quadrant Analog Multiplier cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig. 5:Four-Quadrant Analog Multiplier
+  <img src="https://user-images.githubusercontent.com/90523478/155789012-41046e05-21bf-48cd-a8b3-f718045e742f.png"></br>
+  Fig. 5:Four-Quadrant Analog Multiplier cell Symbol(b)
 </p>
+

@@ -3,29 +3,29 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 
 # Abstract
    Multiplication of two analog input signals is one of the most important factors which we need while working or performing operations in Analog Signal Processing. As, the
-   multiplier is such type of a basic circuit that is used as a subcircuit in many of the other circuits, for example, it is used in analog computers, analog signal processing,
-   etc. Up to now there are so many analog multipliers are designed with the reduction of power supply voltages, there are many CMOS existing analog multipliers are designed but 
-   they are generally designed to be operated at higher supply voltages, which are unfortunately not suitable to be applied to battery-powered systems such as portable  
-   communications systems equipment, some radio receivers, etc. 
+multiplier is such type of a basic circuit that is used as a subcircuit in many of the other circuits, for example, it is used in analog computers, analog signal processing,
+etc. Up to now there are so many analog multipliers are designed with the reduction of power supply voltages, there are many CMOS existing analog multipliers are designed but 
+they are generally designed to be operated at higher supply voltages, which are unfortunately not suitable to be applied to battery-powered systems such as portable  
+communications systems equipment, some radio receivers, etc. 
    
-   Therefore, in this paper, we are going to design a Low power consumption CMOS Analog Multiplier. The technique which we are going to use to make this design is a four-quadrant 
-   technique. We are going to design CMOS Analog Comparator using 28nm technology. Design and Implementation of this circuit will be done in Synopsys Custom design platform that 
-   is Synopsys custom design compiler tool.
-   
-# Introduction:
-    An analog multiplier is basically a non-linear circuit. It is a device that contains two analog input signal and gives the product of both the input signal in its output. It is a circuit which basically gives the linear product of two continuous input signals in its output. If both the input and output signals are voltages let us say “V1” and “V2” be
+   Therefore, in this paper, we are going to design a Low power consumption CMOS Analog Multiplier. The technique which we are going to use to make this design is a four
+quadrant technique. We are going to design CMOS Analog Comparator using 28nm technology. Design and Implementation of this circuit will be done in Synopsys Custom design
+platform that is Synopsys custom design compiler tool.
+
+# INTRODUCTION 
+
+   An analog multiplier is basically a non-linear circuit. It is a device that contains two analog input signal and gives the product of both the input signal in its output. It
+is a circuit that basically gives the linear product of two continuous input signals in its output. If both the input and output signals are voltages let us say “V1” and “V2” be
 the input signal then in the output let’s say “Vout” it gives the product of both the input voltages divided by a scaling factor (say k). where k is the scaling factor that is 
 any multiplication constant or a gain of suitable dimension.
 
+   It is used widely in the field of telecommunication, analog signal processing, Instrument systems etc. Analog multiplier is categorized as single quadrant which means that
+when both the input is positive/negative (i.e., same unipolar), two-quadrant means when one input has a positive voltage and other input could have positive or negative voltage
+(i.e., x is bipolar and y is unipolar), fourquadrant multiplier means when both the input is either positive or negative (i.e., when x is bipolar and y is also bipolar). So, in
+this paper, we are going to make the CMOS low power consumption four-quadrant analog multiplier. As, four-quadrant analog multiplier is a very useful basic building block in
+many circuits like adaptive filters, phase-frequency detection, frequency double, function generator, frequency shifters, etc. It is also used in modulation, pll (phase-locked
+loop), frequency mixer, frequency doubler, etc.
 
-           Vout = (v1*v2)/k
-
-   It is used widely in the field of telecommunication, analog signal processing, Instrument systems etc. Analog multiplier is categorized as single quadrant which means that when
-both the input is positive/negative (i.e., same unipolar), two-quadrant means when one input has a positive voltage and other input could have positive or negative voltage (i.e., 
-x is bipolar and y is unipolar), four-quadrant multiplier means when both the input is either positive or negative (i.e., when x is bipolar and y is also bipolar). 
-So, in this paper, we are going to make the CMOS low power consumption analog multiplier of four-quadrant multiplier. As, four-quadrant analog multiplier is a very useful basic
-building block in many circuits like adaptive filters, phase-frequency detection, frequency double, function generator, frequency shifters, etc. It is also used in modulation, pll
-(phase-locked loop), frequency mixer, etc.
 
 # Four-Quadrant Analog Multiplier:
 
@@ -51,10 +51,29 @@ four-quadrant analog multiplier has been given. For the verification purpose of 
 # Tools Used:
 
 <b>• Synopsys Custom Compiler:</b></br>
-&emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+&emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys
+Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit
+on a transistor level.
+
+</p>
+<p align="center">
+  <img src="![2022-02-26 (2)](https://user-images.githubusercontent.com/90523478/155797839-e3701eb1-70c2-4ce6-8013-b68dc2a38292.png)"></br>
+  Fig. 5: compilier
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
+  Fig. 5: compilier
+</p>
+
+<b>• Synopsys Primewave:</b></br>
+&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
+designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 
 <b>• Synopsys 28nm PDK:</b></br>
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
 
 # Synopsys Custom Compiler Tool Details
 The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
@@ -62,7 +81,7 @@ The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-si
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig. 5:Four-Quadrant Analog Multiplier
+  Fig. 5: compilier
 </p>
 
 # Pre-Layout Schematics and Simulations:

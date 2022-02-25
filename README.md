@@ -50,10 +50,10 @@ four-quadrant analog multiplier has been given. For the verification purpose of 
 
 # Tools Used:
 
-<b>• Synopsys Custom Compiler:</b></br>
-&emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys
-Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit
-on a transistor level.
+## Synopsys Custom Compiler:
+ The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html)design environment is a modern solution for
+ full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation
+ management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 
 </p>
 <p align="center">
@@ -74,15 +74,6 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
 <b>• Synopsys 28nm PDK:</b></br>
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
-
-# Synopsys Custom Compiler Tool Details
-The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig. 5: compilier
-</p>
 
 # Pre-Layout Schematics and Simulations:
 

@@ -14,6 +14,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
  * [Introduction](#Introduction)
  * [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
  * [Tools Used](#Tools-Used)
+                         	- [Synopsys Custom Compiler](#Synopsys Custom Compiler)
  * [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
  * [Netlist of the Circuit](#Netlist-of-the-Circuit)
  * [Observations](#Observations)
@@ -31,7 +32,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
    
    Therefore, we are going to design a Low power consumption CMOS Analog Multiplier. The technique which we are going to use to make this design is a four
 -quadrant technique. We are going to design CMOS Analog multiplier using 28nm technology. Design and Implementation of this circuit will be done in Synopsys Custom design
-platform tool that is Synopsys custom design compiler tool
+platform tool that is Synopsys custom design compiler tool.
 
 # Introduction
 

@@ -108,6 +108,8 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
 ## Schematics:
 
 ### Four-Quadrant Analog Multiplier:
+This is the schematic of Four-Quadrant Analog Multiplier in Synopsys custom compiler Tool which consist of 8 PMOS in which after the PMOS connections are complete  I connected
+the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 providng Vdda label for power supply and Vssa label for ground.
 
 </p>
 <p align="center">
@@ -154,13 +156,6 @@ output.) by the multiplier and giving the result of the multiplication of sine w
   Fig.7: Primewave
 </p>
 
-### Transient Analysis:
-   After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file
-presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the
-outputs which needs to be plotted by selecting the nets on the schematic.
-One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and
-select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
-
 Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
 
 </p>
@@ -170,6 +165,12 @@ Now you see that model file has been included, now the next step which we need t
 </p>
 </p>
 
+### Transient Analysis:
+   After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file
+presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the
+outputs which needs to be plotted by selecting the nets on the schematic.
+One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and
+select the net for which we want to set an initial condition.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155800180-c6f8e2e6-10e9-41b1-b4c4-0980034b6ff4.png"></br>
   Fig.9: Analysis
@@ -183,7 +184,7 @@ Now you see that model file has been included, now the next step which we need t
 </p>
 
 ### Waveform
-
+Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802149-3372f566-1d4a-4381-899b-bd4edae1d0db.jpg"></br>

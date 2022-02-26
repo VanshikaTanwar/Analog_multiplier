@@ -209,6 +209,8 @@ For simulation and netlist Go to "Simulation" on the top left corner and then cl
 also at the same time netlist was generated automatically. To see the netlist click on "netlist" and then go to "Display", text viewer will open in which the generated netlist
 has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
 
+
+This is the output waveform of input v1 and v3.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802149-3372f566-1d4a-4381-899b-bd4edae1d0db.jpg"></br>
@@ -221,6 +223,7 @@ has been displayed. Also, for the Log file go to simulation and then click on "L
   Fig.16: waveform(b)
 </p>
 
+This is output waveform when both input v1 and v3 are grouped together.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802359-14423188-b5a5-4d94-a63e-070b4dc606e2.jpg"></br>
@@ -233,6 +236,7 @@ has been displayed. Also, for the Log file go to simulation and then click on "L
   Fig.18: waveform(d)
 </p>
 
+This is the output waveform when all the 4 inputs are there that is v1, v2, v3 and v4.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802473-6ef496ff-d052-44a0-a5a7-6aba56d09b8b.jpg"></br>
@@ -245,6 +249,7 @@ has been displayed. Also, for the Log file go to simulation and then click on "L
   Fig.20: waveform(f)
 </p>
 
+This is the when both the output waveform , input v1 and v3  and input v2 and v4 are grouped together.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802571-3fce33c3-c36a-423b-970a-5100c1dfe20d.jpg"></br>

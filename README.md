@@ -95,9 +95,6 @@ of the multiplier circuit, a performance simulation result has been given.
   Fig.4: Custom compilier
 </p>
 
-<b>• Synopsys Primewave:</b></br>
-&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
-designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 
 <b>• Synopsys 28nm PDK:</b></br>
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
@@ -146,6 +143,16 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 
 
 ## Simulations:
+### Synopsys Primewave:
+PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
+designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155835329-abe72b37-5b74-44b2-823c-92a77c3c90f5.jpg"></br>
+  Fig.7: Primewave
+</p>
+
 ### Transient Analysis:
    After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file
 presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the

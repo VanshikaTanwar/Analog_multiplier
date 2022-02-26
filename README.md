@@ -4,7 +4,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 
 </p>
 <p align="center">
-  <img src=""></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155858364-e88746b5-3b5c-486a-9ea0-17902afef36a.jpg"></br>
    Four-Quadrant Analog Multiplier in 28nm Technology 
 </p>
 

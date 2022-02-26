@@ -14,7 +14,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
  * [Introduction](#Introduction)
  * [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
  * [Tools Used](#Tools-Used)
-                         	- [Synopsys Custom Compiler](#Synopsys Custom Compiler)
+                      * [Synopsys Custom Compiler](#Synopsys Custom Compiler)
  * [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
  * [Netlist of the Circuit](#Netlist-of-the-Circuit)
  * [Observations](#Observations)
@@ -64,7 +64,7 @@ pll (phase-locked loop), frequency mixer, frequency doubler, etc.
 circuit in Synopsys Custom compiler tool using CMOS 28nm Technology, the device performance, density and low power consumption will be improved and achieved. The proposed
 design consists of a pair of common source amplifier with input transistors and the output that it gives is the square function of its input voltages v1 and v2. It contains a
 total of 8 transistors in which all 8 are PMOS including two resistors R1 and R2 to make the transistor to work in the proper region and the value of resistors has to be
-takenaccordingly at the time of the simulation. Transistor m1 to m8 acts as a non-linear cancellation path in a square root circuit. The output which comes from transistors
+taken accordingly at the time of the simulation. Transistor m1 to m8 acts as a non-linear cancellation path in a square root circuit. The output which comes from transistors
 are directly going into the square root circuit block to produce differential output voltage or current which is just the product of the input signal v12 and v34. Here, v12
 is the difference between v1 and v2 signal while v34 is the difference between v3 and v4 input signal and the resultant output signal Vout will be the differential output of
 vout1 and vout2. 

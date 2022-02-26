@@ -147,7 +147,7 @@ the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 p
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857004-fd69f178-cd8a-4a0b-92ec-344555537f75.png"></br>
   Fig.7: Four-Quadrant Analog Multiplier cell Schematic
 </p>
 
@@ -162,7 +162,7 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155834879-fd4f8e46-7c81-4039-bf2a-e86c65c9d191.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857044-6a5bb678-87de-4235-9dd9-7e3d35e9ad6c.png"></br>
   Fig.8: Four-Quadrant Analog Multiplier cell Symbol
 </p>
 
@@ -172,16 +172,15 @@ for providing input to the multiplier and 3 Resistors are used named R1, R2 and 
 provided at VSSA.
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155788676-3f714c91-ea80-4f09-965f-174ea696c155.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857026-a6671102-b4c9-4ff3-b9bc-a42c66228e96.png"></br>
   Fig.9: Testbench of cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155789012-41046e05-21bf-48cd-a8b3-f718045e742f.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857107-eac35ab0-5a57-4486-a3d4-9b58d3498bcf.png"></br>
   Fig.10: Testbench of cell Symbol(b)
 </p>
-
 
 ## Simulations:
 ### Synopsys Primewave:
@@ -189,7 +188,7 @@ For carrying simulation process in this tool Prime Wave is used. After creating 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155835329-abe72b37-5b74-44b2-823c-92a77c3c90f5.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857137-bf3185a4-93e6-4a3e-af33-6b44ac10e887.png"></br>
   Fig.11: Primewave
 </p>
 
@@ -197,7 +196,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155800668-ec14c672-31f7-4888-9d79-2fd74a7c1e27.png"></br>
+  <img src="(https://user-images.githubusercontent.com/90523478/155857164-84f9291a-b690-4d62-b7aa-cd1eaf583ad3.png"></br>
   Fig.12: Model file
 </p>
 </p>
@@ -207,7 +206,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
  save it. Then add the outputs which needs to be plotted by selecting the nets from the design.
  
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155800180-c6f8e2e6-10e9-41b1-b4c4-0980034b6ff4.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857191-f50dd197-b32f-4351-89b2-91789899604d.png"></br>
   Fig.13: Analysis
 </p>
 

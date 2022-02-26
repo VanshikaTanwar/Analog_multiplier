@@ -87,7 +87,7 @@ of the multiplier circuit, a performance simulation result has been given.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155834728-73382097-31f0-4462-9ee6-4cf3d8d6e2fe.jpg"></br>
+  <img src=""></br>
   Fig.3: REFERENCE CIRCUIT WAVEFORMS
 </p>
 

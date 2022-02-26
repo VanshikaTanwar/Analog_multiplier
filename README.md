@@ -43,7 +43,7 @@ platform tool that is Synopsys custom design compiler tool
 
    It is used widely in the field of telecommunication, analog signal processing, Instrument systems etc. Analog multiplier is categorized as single quadrant which means that
 when both the input is positive/negative (i.e., same unipolar), two-quadrant means when one input has a positive voltage and other input could have positive or negative
-voltage (i.e., x is bipolar and y is unipolar), fourquadrant multiplier means when both the input is either positive or negative (i.e., when x is bipolar and y is also
+voltage (i.e., x is bipolar and y is unipolar), four-quadrant multiplier means when both the input is either positive or negative (i.e., when x is bipolar and y is also
 bipolar). So, in this paper, we are going to make the CMOS low power consumption four-quadrant analog multiplier. As, four-quadrant analog multiplier is a very useful basic
 building block in many circuits like adaptive filters, phase-frequency detection, frequency double, function generator, frequency shifters, etc. It is also used in modulation,
 pll (phase-locked loop), frequency mixer, frequency doubler, etc.

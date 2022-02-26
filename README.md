@@ -287,6 +287,8 @@ This is the when both the output waveform , input v1 and v3  and input v2 and v4
 - [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
 
 # References:
-[1]. https://www.ijaiem.org/volume2issue7/IJAIEM-2013-07-16-049.pdf
-[2]. https://aircconline.com/vlsics/V3N5/3512vlsics08.pdf
+[1]. https://www.ijaiem.org/volume2issue7/IJAIEM-2013-07-16-049.pdf 
+
+[2]. https://aircconline.com/vlsics/V3N5/3512vlsics08.pdf 
+
 [3]. https://www.researchgate.net/publication/261076064_CMOS_Design_of_a_Multi-input_Analog_Multiplier_and_Divider_Circuit

@@ -283,9 +283,7 @@ Refer to the netlist of the circuit here: <a href='Netlist of Analog Multiplier 
 
 # Log_File of the Circuit:
 
-Refer to the log_file of the circuit here: <a href='Log File.txt'>Netlist</a>
-
-# Observations:
+Refer to the log_file of the circuit here: <a href='Log File.txt'>Log_File</a>
 
 
 # References:

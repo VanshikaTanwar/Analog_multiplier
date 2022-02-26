@@ -117,6 +117,8 @@ select the 28nm library from the respective location.
 3. After this click on "OK"
 
 Now, a library of the respective circuit is created
+Similarly, now we need to create the cell. For creating that Go to the cell column and do right-click , click on "New" now, give the name of the cell and Ok. Similarly, for
+creating a schematic of the circuit in the View column the same procedure has been followed as above.
 
 </p>
 <p align="center">

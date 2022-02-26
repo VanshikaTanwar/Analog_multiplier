@@ -10,17 +10,26 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 
 
 # Table of Contents
- * [Abstract](#Abstract)
- * [Introduction](#Introduction)
- * [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
- * [Tools Used](#Tools-Used)
-                      * [Synopsys Custom Compiler](#Synopsys Custom Compiler)
- * [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
- * [Netlist of the Circuit](#Netlist-of-the-Circuit)
- * [Observations](#Observations)
- * [Author](#Author)
- * [Acknowledgements](#Acknowledgements)
- * [References](#References)
+
+- [Abstract](#Abstract)
+- [Introduction](#Introduction)
+- [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
+- [Tools Used](#Tools-Used)
+	- [Synopsys Custom Compiler](#Synopsys-Custom-Compiler)
+- [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
+    	- [Schematics](#Schematics)
+    	- [Four-Quadrant Analog Multiplier](#Four-Quadrant Analog Multiplier)
+    	- [Symbol](#Symbol)
+    	- [Testbench of cell Symbol](#Testbench-of-cell-Symbol)
+  - [Simulations](#Simulations)
+    	- [Synopsys Primewave](#Synopsys-Primewave)
+    	- [Transient Analysis](#Transient-Analysis)
+    	- [Waveform](#Waveform)
+- [Netlist of the Circuit](#Netlist-of-the-Circuit)
+- [Log_life of the Circuit](#Log_life-of-the-Circuit)
+- [References](#References)
+- [Acknowledgements](#Acknowledgements)
+- [Author](#Author)
 
 
 # Abstract
@@ -145,7 +154,7 @@ the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 p
   Fig.7: Four-Quadrant Analog Multiplier cell Schematic
 </p>
 
-## Symbol:
+### Symbol:
 
 This is the symbol of Four Quadrant Analog Multiplier as in this symbol the four circles which are shown indicates that there are 4 inputs sine signal which I have given (named
 v1,v2,v3 and v4) and the cross sign which is given in between the loop it means that it is the sign of multiplier indicating that it is multiplying the input signal and the
@@ -160,7 +169,7 @@ output.) by the multiplier and giving the result of the multiplication of sine w
   Fig.8: Four-Quadrant Analog Multiplier cell Symbol
 </p>
 
-### Testbench of cell Symbol
+### Testbench of cell Symbol:
 This is the testbench of Four Quadrant Analog Multiplier in which its symbol is used and in which the other external connections are provided. Here, the Sinewave signal is used
 for providing input to the multiplier and 3 Resistors are used named R1, R2 and R3 also Dc supply is given at 1.8v for providing power supply to the circuit and ground is
 provided at VSSA.
@@ -213,7 +222,7 @@ Now, we need to save the testbench state for that Go to "Testbench" on the top l
   Fig.14: Save Testbench State
 </p>
 
-### Waveform
+### Waveform:
 For simulation and netlist Go to "Simulation" on the top left corner and then click on "Netlist and Run", the Respective Waveform has now been generated of Analog Multiplier
 also at the same time netlist was generated automatically. To see the netlist click on "netlist" and then go to "Display", text viewer will open in which the generated netlist
 has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
@@ -282,8 +291,12 @@ Refer to the log_file of the circuit here: <a href='Log File.txt'>Netlist</a>
 # Observations:
 
 
-# Author:
-• Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.
+# References:
+[1]. https://www.ijaiem.org/volume2issue7/IJAIEM-2013-07-16-049.pdf 
+
+[2]. https://aircconline.com/vlsics/V3N5/3512vlsics08.pdf 
+
+[3]. https://www.researchgate.net/publication/261076064_CMOS_Design_of_a_Multi-input_Analog_Multiplier_and_Divider_Circuit
 
 # Acknowledgements:
 
@@ -293,9 +306,5 @@ Refer to the log_file of the circuit here: <a href='Log File.txt'>Netlist</a>
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
 
-# References:
-[1]. https://www.ijaiem.org/volume2issue7/IJAIEM-2013-07-16-049.pdf 
-
-[2]. https://aircconline.com/vlsics/V3N5/3512vlsics08.pdf 
-
-[3]. https://www.researchgate.net/publication/261076064_CMOS_Design_of_a_Multi-input_Analog_Multiplier_and_Divider_Circuit
+# Author:
+• Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.

@@ -25,7 +25,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 -quadrant technique. We are going to design CMOS Analog multiplier using 28nm technology. Design and Implementation of this circuit will be done in Synopsys Custom design
 platform tool that is Synopsys custom design compiler tool
 
-# INTRODUCTION 
+# Introduction
 
   An analog multiplier is basically a non-linear circuit. It is a device that contains two analog input signal and gives the product of both the input signal in its output. It
   is a circuit that basically gives the linear product of two continuous input signals in its output. If both the input and output signals are voltages let us say “V1” and “V2”
@@ -63,7 +63,7 @@ vout1 and vout2.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155011823-c72c46ea-1cf8-4c27-8211-9dcab0887217.jpg"></br>
-  Fig.2:Four-Quadrant Analog Multiplier
+  Fig.2: REFERENCE Four-Quadrant Analog Multiplier CIRCUIT
 </p>
 
 Hence, on observing the output waveform we conclude that the given circuit become capable to operate with the input voltage and also the requirement of low power consumption for

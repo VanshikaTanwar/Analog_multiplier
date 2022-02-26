@@ -126,8 +126,8 @@ For implementing the circuit first we need to create library for that there are 
 1. Go to "file" click on "new", click on "Library" as we need to create the library of our respective circuit ,
 Give the name of the circuit according to your circuit or suitability which you want to create.
 
-2. After this select which library you want to insert in your design, For example As in my circuit I have to insert the 28nm library so, I selected the "Tech Library" and then
-select the 28nm library from the respective location. 
+2. After this select which library you want to insert in your design, For example As in my circuit I have to insert the 28nm PDK library so, I selected the "Tech Library" and then
+select the 28nm PDK library from the respective location. 
 
 3. After this click on "OK"
 
@@ -300,6 +300,8 @@ Refer to the log_file of the circuit here: <a href='Log File.txt'>Log_File</a>
 - [Indian Institute Of Technology (IIT) Hyderabad](https://iith.ac.in/)
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+- [SUMANTO KAR](https://github.com/Eyantra698Sumanto)
+- [Sameer S Durgoji](https://github.com/vsdip/avsddac_3v3_sky130_v2)
 
 # Author:
 • Vanshika Tanwar, B.Tech(ECE), Dronacharya Group of Institutions, Greater Nodia, Uttar Pradesh.

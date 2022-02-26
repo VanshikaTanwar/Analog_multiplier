@@ -18,7 +18,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 	- [Synopsys Custom Compiler](#Synopsys-Custom-Compiler)
 - [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
 	- [Schematics](#Schematics)
-	- [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
+	- [Four-Quadrant Analog Multiplier schematic](#Four-Quadrant-Analog-Multiplier-schematic)
 	- [Symbol](#Symbol)
 	- [Testbench of cell Symbol](#Testbench-of-cell-Symbol)
 - [Running openlane](#Running-openlane)
@@ -142,7 +142,7 @@ creating a schematic of the circuit in the View column the same procedure has be
   Fig.6: Library manager
 </p>
 
-### Four-Quadrant Analog Multiplier:
+### Four-Quadrant Analog Multiplier schematic:
 This is the schematic of Four-Quadrant Analog Multiplier in Synopsys custom compiler Tool which consist of 8 PMOS in which after the PMOS connections are complete  I connected
 the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 providng VDDA label for power supply and VSSA label for ground.
 

@@ -273,6 +273,9 @@ This is the when both the output waveform , input v1 and v3  and input v2 and v4
 
 Refer to the netlist of the circuit here: <a href='Netlist of Analog Multiplier .txt'>Netlist</a>
 
+# Logfile of the Circuit:
+
+Refer to the logfile of the circuit here: <a href='Log File.txt'>Netlist</a>
 
 # Observations:
 

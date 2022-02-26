@@ -1,0 +1,70 @@
+*  Generated for: PrimeSim
+*  Design library name: Multiplier
+*  Design cell name: analog_multiplier_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sat Feb 26 20:25:14 2022
+
+.global gnd! vdd!
+****************************
+* Library          : Multiplier
+* Cell             : analog_multiplier
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+****************************
+.subckt analog_multiplier vout1 vout2 vss v1 v2 v3 v4 vt_bulk_p_vdd!
+xm8 net27 v1 vout1 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm7 vss v3 net23 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm5 vss v4 net17 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm4 net15 v2 vout1 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm3 net23 v2 vout2 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 vss v4 net15 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net17 v1 vout2 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm0 vss v3 net27 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+.ends analog_multiplier
+
+****************************
+* Library          : Multiplier
+* Cell             : analog_multiplier_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+****************************
+xi0 vout1 vout2 gnd! v1 v2 v3 v4 vdd! analog_multiplier
+v2 v3 v4 dc=0 sin ( 0 0.1 1k 0 0 0 )
+v1 v1 v2 dc=0 sin ( 0 0.2 30k 0 0 0 )
+r6 net16 vout1 r=2.5k
+r5 net16 vout2 r=2.5k
+v7 net16 gnd! dc=1.8
+
+
+
+
+
+
+
+
+.tran '0.01m' '4m' start=1m name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v() i() level=1
+.probe tran v(vout1) v(vout2) v(v1) v(v2) v(v3) v(v4)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end

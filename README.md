@@ -81,7 +81,7 @@ of the multiplier circuit, a performance simulation result has been given.
 ## Synopsys Custom Compiler:
  The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html)design environment is a modern solution for
  full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation
- management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+ management and analysis, and custom layout editing features. This tool is used to design the circuit on a transistor level.
 
 </p>
 <p align="center">

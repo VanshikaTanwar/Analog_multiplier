@@ -196,7 +196,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 
 </p>
 <p align="center">
-  <img src="(https://user-images.githubusercontent.com/90523478/155857164-84f9291a-b690-4d62-b7aa-cd1eaf583ad3.png"></br>
+  <img src="(https://user-images.githubusercontent.com/90523478/155857264-9b440a4b-65f1-453a-8614-ff73fc15ea76.png"></br>
   Fig.12: Model file
 </p>
 </p>
@@ -227,53 +227,14 @@ has been displayed. Also, for the Log file go to simulation and then click on "L
 This is the output waveform of input v1 and v3.
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802149-3372f566-1d4a-4381-899b-bd4edae1d0db.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857283-f12ab886-7b4b-4277-bbd5-cec11c0cf7c7.png"></br>
   Fig.15: waveform(a)
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802297-d6916d54-e9a9-44ba-82d6-e9fab75654ea.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857302-c8f35088-a9b6-41b5-aa4b-335bb2c24595.png"></br>
   Fig.16: waveform(b)
-</p>
-
-This is output waveform when both input v1 and v3 are grouped together.
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802359-14423188-b5a5-4d94-a63e-070b4dc606e2.jpg"></br>
-  Fig.17: waveform(c)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802414-058b2962-f7f7-41e1-bb98-cc49cb357037.jpg"></br>
-  Fig.18: waveform(d)
-</p>
-
-This is the output waveform when all the 4 inputs are there that is v1, v2, v3 and v4.
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802473-6ef496ff-d052-44a0-a5a7-6aba56d09b8b.jpg"></br>
-  Fig.19: waveform(e)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802536-caa6390d-d361-4041-aa0d-e8a8e41d2cf2.jpg"></br>
-  Fig.20: waveform(f)
-</p>
-
-This is the when both the output waveform , input v1 and v3  and input v2 and v4 are grouped together.
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802571-3fce33c3-c36a-423b-970a-5100c1dfe20d.jpg"></br>
-  Fig.21: waveform(g)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155802630-78a8b78b-da3f-4540-95f5-87da4064c27b.jpg"></br>
-  Fig.22: waveform(h)
 </p>
 
 # Netlist of the Circuit:

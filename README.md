@@ -21,7 +21,6 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 	- [Four-Quadrant Analog Multiplier schematic](#Four-Quadrant-Analog-Multiplier-schematic)
 	- [Symbol](#Symbol)
 	- [Testbench of cell Symbol](#Testbench-of-cell-Symbol)
-- [Running openlane](#Running-openlane)
 - [Simulations](#Simulations)
 	- [Synopsys Primewave](#Synopsys-Primewave)
 	- [Transient Analysis](#Transient-Analysis)

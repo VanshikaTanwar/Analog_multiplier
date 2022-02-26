@@ -1,4 +1,5 @@
-# Four-Quadrant Analog Multiplier
+# FOUR-QUADRANT ANALOG MULTIPLIER
+
 This repository presents the design of Four-Quadrant Analog Multiplier implemented using Synopsys Custom Compiler Tool in 28nm Technology.
 
 </p>
@@ -10,7 +11,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 
 # Table of Contents
  * [Abstract](#Abstract)
- * [INTRODUCTION](#INTRODUCTION)
+ * [Introduction](#Introduction)
  * [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
  * [Tools Used](#Tools-Used)
  * [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
@@ -273,9 +274,9 @@ This is the when both the output waveform , input v1 and v3  and input v2 and v4
 
 Refer to the netlist of the circuit here: <a href='Netlist of Analog Multiplier .txt'>Netlist</a>
 
-# Logfile of the Circuit:
+# Log_File of the Circuit:
 
-Refer to the logfile of the circuit here: <a href='Log File.txt'>Netlist</a>
+Refer to the log_file of the circuit here: <a href='Log File.txt'>Netlist</a>
 
 # Observations:
 

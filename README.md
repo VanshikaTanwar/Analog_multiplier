@@ -95,7 +95,9 @@ of the multiplier circuit, a performance simulation result has been given.
   Fig.4: Custom compilier
 </p>
 
-
+<b>• Synopsys PrimeWave:</b></br>
+&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
+designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 <b>• Synopsys 28nm PDK:</b></br>
 &emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
@@ -144,8 +146,6 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 
 ## Simulations:
 ### Synopsys Primewave:
-PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory
-designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 
 </p>
 <p align="center">

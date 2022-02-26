@@ -86,13 +86,13 @@ of the multiplier circuit, a performance simulation result has been given.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
-  Fig.3: Synopsys Custom Compiler
+  Fig.4: Synopsys Custom Compiler
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig.4: Custom compilier
+  Fig.5: Custom compilier
 </p>
 
 <b>• Synopsys PrimeWave:</b></br>
@@ -106,15 +106,32 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
 # Pre-Layout Schematics and Simulations:
 
 ## Schematics:
+For implementing the circuit first we need to create library for that there are several steps which we need to do for creating it. These steps are:-
+
+1. Go to "file" click on "new", click on "Library" as we need to create the library of our respective circuit ,
+Give the name of the circuit according to your circuit or suitability which you want to create.
+
+2. After this select which library you want to insert in your design, For example As in my circuit I have to insert the 28nm library so, I selected the "Tech Library" and then
+select the 28nm library from the respective location. 
+
+3. After this click on "OK"
+
+Now, a library of the respective circuit is created
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155836118-321e539e-bb65-4117-8002-583c53f5b578.jpg"></br>
+  Fig.6: Library manager
+</p>
 
 ### Four-Quadrant Analog Multiplier:
 This is the schematic of Four-Quadrant Analog Multiplier in Synopsys custom compiler Tool which consist of 8 PMOS in which after the PMOS connections are complete  I connected
-the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 providng Vdda label for power supply and Vssa label for ground.
+the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 providng VDDA label for power supply and VSSA label for ground.
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png"></br>
-  Fig.5: Four-Quadrant Analog Multiplier cell Schematic
+  Fig.7: Four-Quadrant Analog Multiplier cell Schematic
 </p>
 
 ## Symbol:
@@ -129,109 +146,113 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155834879-fd4f8e46-7c81-4039-bf2a-e86c65c9d191.png"></br>
-  Fig.6: Four-Quadrant Analog Multiplier cell Symbol
+  Fig.8: Four-Quadrant Analog Multiplier cell Symbol
 </p>
 
-## Testbench of cell Symbol
-
+### Testbench of cell Symbol
+This is the testbench of Four Quadrant Analog Multiplier in which its symbol is used and in which the other external connections are provided. Here, the Sinewave signal is used
+for providing input to the multiplier and 3 Resistors are used named R1, R2 and R3 also Dc supply is given at 1.8v for providing power supply to the circuit and ground is
+provided at VSSA.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155788676-3f714c91-ea80-4f09-965f-174ea696c155.png"></br>
-  Fig.6: Testbench of cell Symbol(a)
+  Fig.9: Testbench of cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155789012-41046e05-21bf-48cd-a8b3-f718045e742f.png"></br>
-  Fig.7: Testbench of cell Symbol(b)
+  Fig.10: Testbench of cell Symbol(b)
 </p>
 
 
 ## Simulations:
 ### Synopsys Primewave:
-For carrying simulation process in this tool Prime Wave is used
+For carrying simulation process in this tool Prime Wave is used. After creating and saving & check the schematic go to 'Tools' and open 'Primewave' to start the simulation.
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155835329-abe72b37-5b74-44b2-823c-92a77c3c90f5.jpg"></br>
-  Fig.7: Primewave
+  Fig.11: Primewave
 </p>
 
-Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
+In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present in the HSPICE folder. Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155800668-ec14c672-31f7-4888-9d79-2fd74a7c1e27.png"></br>
-  Fig.8: Model file
+  Fig.12: Model file
 </p>
 </p>
 
 ### Transient Analysis:
-   After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file
-presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the
-outputs which needs to be plotted by selecting the nets on the schematic.
-One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and
-select the net for which we want to set an initial condition.
+  Once that model file has been included, then after this select the 'tran' analysis in the analysis window and give the 'Start Time', 'Time Step' and 'Stop Time' parameters and
+ save it. Then add the outputs which needs to be plotted by selecting the nets from the design.
+ 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155800180-c6f8e2e6-10e9-41b1-b4c4-0980034b6ff4.png"></br>
-  Fig.9: Analysis
+  Fig.13: Analysis
 </p>
+
+Now, we need to save the testbench state for that Go to "Testbench" on the top left corner and then "click" on it then Go to "Save state", Press "OK" or hit "Enter".
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155801132-972f490a-b6c5-4279-a818-3c71af949878.png"></br>
-
-  Fig.10: Save Testbench State
+  Fig.14: Save Testbench State
 </p>
 
 ### Waveform
-Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
+For simulation and netlist Go to "Simulation" on the top left corner and then click on "Netlist and Run", the Respective Waveform has now been generated of Analog Multiplier
+also at the same time netlist was generated automatically. To see the netlist click on "netlist" and then go to "Display", text viewer will open in which the generated netlist
+has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802149-3372f566-1d4a-4381-899b-bd4edae1d0db.jpg"></br>
-  Fig.11: waveform(a)
+  Fig.15: waveform(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802297-d6916d54-e9a9-44ba-82d6-e9fab75654ea.jpg"></br>
-  Fig.12: waveform(b)
+  Fig.16: waveform(b)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802359-14423188-b5a5-4d94-a63e-070b4dc606e2.jpg"></br>
-  Fig.13: waveform(c)
+  Fig.17: waveform(c)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802414-058b2962-f7f7-41e1-bb98-cc49cb357037.jpg"></br>
-  Fig.14: waveform(d)
+  Fig.18: waveform(d)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802473-6ef496ff-d052-44a0-a5a7-6aba56d09b8b.jpg"></br>
-  Fig.15: waveform(e)
+  Fig.19: waveform(e)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802536-caa6390d-d361-4041-aa0d-e8a8e41d2cf2.jpg"></br>
-  Fig.16: waveform(f)
+  Fig.20: waveform(f)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802571-3fce33c3-c36a-423b-970a-5100c1dfe20d.jpg"></br>
-  Fig.17: waveform(g)
+  Fig.21: waveform(g)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155802630-78a8b78b-da3f-4540-95f5-87da4064c27b.jpg"></br>
-  Fig.18: waveform(h)
+  Fig.22: waveform(h)
 </p>
 
 # Netlist of the Circuit:

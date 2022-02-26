@@ -196,7 +196,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 
 </p>
 <p align="center">
-  <img src="(https://user-images.githubusercontent.com/90523478/155857264-9b440a4b-65f1-453a-8614-ff73fc15ea76.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857452-1725d124-f3b7-44c0-9a47-b6ccc37d780e.png"></br>
   Fig.12: Model file
 </p>
 </p>

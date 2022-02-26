@@ -86,13 +86,13 @@ of the multiplier circuit, a performance simulation result has been given.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
-  Fig.3: compilier
+  Fig.3: Synopsys Custom Compiler
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig.4: compilier
+  Fig.4: Custom compilier
 </p>
 
 <b>• Synopsys Primewave:</b></br>
@@ -126,14 +126,20 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155788676-3f714c91-ea80-4f09-965f-174ea696c155.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155834879-fd4f8e46-7c81-4039-bf2a-e86c65c9d191.png"></br>
   Fig.6: Four-Quadrant Analog Multiplier cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/155788676-3f714c91-ea80-4f09-965f-174ea696c155.png"></br>
+  Fig.6: Four-Quadrant Analog Multiplier cell Symbol(b)
+</p>
+
+</p>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155789012-41046e05-21bf-48cd-a8b3-f718045e742f.png"></br>
-  Fig.7: Four-Quadrant Analog Multiplier cell Symbol(b)
+  Fig.7: Four-Quadrant Analog Multiplier cell Symbol(c)
 </p>
 
 

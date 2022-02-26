@@ -1,0 +1,73 @@
+*  Generated for: PrimeSim
+*  Design library name: FQ_AM_lib1
+*  Design cell name: FQ_multiplier_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sat Feb 26 09:08:07 2022
+
+.global gnd!
+********************************************************************************
+* Library          : FQ_AM_lib1
+* Cell             : FQ_multiplier
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt fq_multiplier vdda vssa v1 v2 v3 v4
+xm8 net34 v2 vdda net34 p105 w=0.1u l=0.03u nf=1 m=1
+xm7 vssa v3 net70 vssa p105 w=0.1u l=0.03u nf=1 m=1
+xm6 net70 v2 vdda net70 p105 w=0.1u l=0.03u nf=1 m=1
+xm4 vssa v4 net34 vssa p105 w=0.1u l=0.03u nf=1 m=1
+xm3 vssa v3 net69 vssa p105 w=0.1u l=0.03u nf=1 m=1
+xm9 net46 v1 vdda net46 p105 w=0.1u l=0.03u nf=1 m=1
+xm1 vssa v4 net46 vssa p105 w=0.1u l=0.03u nf=1 m=1
+xm10 net69 v1 vdda net69 p105 w=0.1u l=0.03u nf=1 m=1
+.ends fq_multiplier
+
+********************************************************************************
+* Library          : FQ_AM_lib1
+* Cell             : FQ_multiplier_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 vout2 gnd! v1 v2 v3 v4 fq_multiplier
+r38 vout2 gnd! r=40k
+r39 gnd! vout2 r=40k
+r42 net68 vout2 r=30k
+v7 v4 gnd! dc=0 sin ( 0 5m 225 0 0 0 )
+v6 v2 gnd! dc=0 sin ( 0 5m 350 0 0 0 )
+v5 v1 gnd! dc=0 sin ( 0 -5m 350 0 0 0 )
+v4 v3 gnd! dc=0 sin ( 0 -5m 225 0 0 0 )
+v35 net68 gnd! dc=1.8
+
+
+
+
+
+
+
+
+.tran '1m' '150m' start=0m name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(vout2) v(v1) v(v2) v(v3) v(v4)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end

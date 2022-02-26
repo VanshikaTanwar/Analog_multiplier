@@ -178,7 +178,7 @@ provided at VSSA.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155857107-eac35ab0-5a57-4486-a3d4-9b58d3498bcf.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155857391-0b27e8d5-e8e7-46a1-b968-9a403890c1e3.png"></br>
   Fig.10: Testbench of cell Symbol(b)
 </p>
 

@@ -17,14 +17,10 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 - [Tools Used](#Tools-Used)
 	- [Synopsys Custom Compiler](#Synopsys-Custom-Compiler)
 - [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations)
-    	* [Schematics](#Schematics)
-    	
-    	* [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
-
-
-    	* [Symbol](#Symbol)
-    	
-    	* [Testbench of cell Symbol](#Testbench-of-cell-Symbol)
+    	- [Schematics](#Schematics)
+    	- [Four-Quadrant Analog Multiplier](#Four-Quadrant-Analog-Multiplier)
+    	- [Symbol](#Symbol)
+    	- [Testbench of cell Symbol](#Testbench-of-cell-Symbol)
   - [Simulations](#Simulations)
     	- [Synopsys Primewave](#Synopsys-Primewave)
     	- [Transient Analysis](#Transient-Analysis)

@@ -72,7 +72,7 @@ of the multiplier circuit, a performance simulation result has been given.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155834367-80d0369d-2213-414f-aaa4-f20bfb4bf43b.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155834728-73382097-31f0-4462-9ee6-4cf3d8d6e2fe.jpg"></br>
   Fig.3: REFERENCE CIRCUIT WAVEFORMS
 </p>
 
@@ -114,6 +114,8 @@ designs within the Synopsys Custom Design Platform. This tool helped in various 
   <img src="https://user-images.githubusercontent.com/90523478/155770297-e0be9ae9-d146-4e1c-9e08-57e5b71b455f.png"></br>
   Fig.5: Four-Quadrant Analog Multiplier cell Schematic
 </p>
+
+## Symbol:
 
 This is the symbol of Four Quadrant Analog Multiplier as in this symbol the four circles which are shown indicates that there are 4 inputs sine signal which I have given (named
 v1,v2,v3 and v4) and the cross sign which is given in between the loop it means that it is the sign of multiplier indicating that it is multiplying the input signal and the

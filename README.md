@@ -35,7 +35,7 @@ platform tool that is Synopsys custom design compiler tool
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155834028-68561b84-48b4-4d71-9efa-fc9ea182a549.jpg"></br>
-  Fig.1:
+  Fig.1: Symbol of multiplier
 </p>
 
            Vout = (v1*v2)/k

@@ -149,6 +149,7 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 
 ## Simulations:
 ### Synopsys Primewave:
+For carrying simulation process in this tool Prime Wave is used
 
 </p>
 <p align="center">

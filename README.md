@@ -239,7 +239,7 @@ This is the output waveform of input v1 and v3.
 
 # Netlist of the Circuit:
 
-Refer to the netlist of the circuit here: <a href='Netlist of Analog Multiplier .txt'>Netlist</a>
+Refer to the netlist of the circuit here: <a href='Netlist.txt'>Netlist</a>
 
 # Log_File of the Circuit:
 

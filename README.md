@@ -96,13 +96,13 @@ of the multiplier circuit, a performance simulation result has been given.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155798629-823e7866-48e3-4f3b-a955-8f02852f69e8.png"></br>
-  Fig.4: Synopsys Custom Compiler
+  Fig.3: Synopsys Custom Compiler
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155771943-0d7497e0-e352-4623-bbb0-d33448571970.png"></br>
-  Fig.5: Custom compilier
+  Fig.4: Custom compilier
 </p>
 
 <b>• Synopsys PrimeWave:</b></br>
@@ -133,7 +133,7 @@ creating a schematic of the circuit in the View column the same procedure has be
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155871518-d2c1ae09-3242-4099-b151-4799bb05841d.jpg"></br>
-  Fig.6: Library manager
+  Fig.5: Library manager
 </p>
 
 ### Four-Quadrant Analog Multiplier schematic:
@@ -143,7 +143,7 @@ the 4 input labels that is v1,v2,v3 and v4 and 2 output labels Vout1 and Vout2 p
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857004-fd69f178-cd8a-4a0b-92ec-344555537f75.png"></br>
-  Fig.7: Four-Quadrant Analog Multiplier cell Schematic
+  Fig.6: Four-Quadrant Analog Multiplier cell Schematic
 </p>
 
 ### Symbol:
@@ -158,7 +158,7 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155871926-8322174d-d43b-4d6c-ac83-b888c5690983.png"></br>
-  Fig.8: Four-Quadrant Analog Multiplier cell Symbol
+  Fig.7: Four-Quadrant Analog Multiplier cell Symbol
 </p>
 
 ### Testbench of cell Symbol:
@@ -168,13 +168,13 @@ provided at VSSA.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857026-a6671102-b4c9-4ff3-b9bc-a42c66228e96.png"></br>
-  Fig.9: Testbench of cell Symbol(a)
+  Fig.8: Testbench of cell Symbol(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857391-0b27e8d5-e8e7-46a1-b968-9a403890c1e3.png"></br>
-  Fig.10: Testbench of cell Symbol(b)
+  Fig.9: Testbench of cell Symbol(b)
 </p>
 
 ## Simulations:
@@ -184,7 +184,7 @@ For carrying simulation process in this tool Prime Wave is used. After creating 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857137-bf3185a4-93e6-4a3e-af33-6b44ac10e887.png"></br>
-  Fig.11: Primewave
+  Fig.10: Primewave
 </p>
 
 In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present in the HSPICE folder. Now you see that model file has been included, now the next step which we need to do now is to include the analysis 
@@ -192,7 +192,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857797-dbcb6237-b9a2-4d16-b2cc-6214e0635a42.jpg"></br>
-  Fig.12: Model file
+  Fig.11: Model file
 </p>
 </p>
 
@@ -202,7 +202,7 @@ In the Primewave select the 'model file' i.e the '28nm PDK's .lib file present i
  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857191-f50dd197-b32f-4351-89b2-91789899604d.png"></br>
-  Fig.13: Analysis
+  Fig.12: Analysis
 </p>
 
 Now, we need to save the testbench state for that Go to "Testbench" on the top left corner and then "click" on it then Go to "Save state", Press "OK" or hit "Enter".
@@ -210,7 +210,7 @@ Now, we need to save the testbench state for that Go to "Testbench" on the top l
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155801132-972f490a-b6c5-4279-a818-3c71af949878.png"></br>
-  Fig.14: Save Testbench State
+  Fig.13: Save Testbench State
 </p>
 
 ### Waveform:
@@ -223,13 +223,13 @@ This is the output waveform.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857283-f12ab886-7b4b-4277-bbd5-cec11c0cf7c7.png"></br>
-  Fig.15: waveform(a)
+  Fig.14: waveform(a)
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857302-c8f35088-a9b6-41b5-aa4b-335bb2c24595.png"></br>
-  Fig.16: waveform(b)
+  Fig.15: waveform(b)
 </p>
 
 # Netlist of the Circuit:

@@ -219,7 +219,7 @@ also at the same time netlist was generated automatically. To see the netlist cl
 has been displayed. Also, for the Log file go to simulation and then click on "Log File", the log file is displayed.
 
 
-This is the output waveform of input v1 and v3.
+This is the output waveform.
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/155857283-f12ab886-7b4b-4277-bbd5-cec11c0cf7c7.png"></br>

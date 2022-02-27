@@ -85,11 +85,6 @@ Hence, on observing the output waveform we conclude that the given circuit becom
 operating the circuit is also achieved. So, a new square root circuit can be used to realize a CMOS four-quadrant analog multiplier has been given. For the verification purpose
 of the multiplier circuit, a performance simulation result has been given.
 
-</p>
-<p align="center">
-  <img src=""></br>
-  Fig.3: REFERENCE CIRCUIT WAVEFORMS
-</p>
 
 # Tools Used:
 

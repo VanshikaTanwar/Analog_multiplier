@@ -162,7 +162,7 @@ output.) by the multiplier and giving the result of the multiplication of sine w
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155857044-6a5bb678-87de-4235-9dd9-7e3d35e9ad6c.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/155871926-8322174d-d43b-4d6c-ac83-b888c5690983.png"></br>
   Fig.8: Four-Quadrant Analog Multiplier cell Symbol
 </p>
 

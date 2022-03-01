@@ -264,6 +264,10 @@ Refer to the log_file of the circuit here: <a href='Log_file'>Log_File</a>
 
 [3]. https://www.researchgate.net/publication/261076064_CMOS_Design_of_a_Multi-input_Analog_Multiplier_and_Divider_Circuit
 
+[4]. https://www.koreascience.or.kr/article/JAKO199911921383249.pdf
+
+[5]. https://www.researchgate.net/publication/224105811_CMOS_fully_differential_CMOS_Four-quadrant_analog_multiplier
+
 # Acknowledgements:
 
 - [Synopsys India](https://www.synopsys.com/)

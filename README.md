@@ -234,7 +234,7 @@ This is the output waveform.
 </p>
 
 And by observing the above waveform it is found that multiplication of two input sine waves produces the output waveform like Amplitude modulation so, we can conclude that it
-behaves or is considered as amplitude modulator or it is used in amplitude modulation which produces Amplitude Modulation which is basically the Double -Sideband Suppressed
+behaves or is considered as amplitude modulation or it is used in amplitude modulator which produces Amplitude Modulation which is basically the Double -Sideband Suppressed
 Carrier(that is DSB-SC).
 
 # Conclusion:

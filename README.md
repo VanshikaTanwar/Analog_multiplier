@@ -25,6 +25,7 @@ This repository presents the design of Four-Quadrant Analog Multiplier implement
 	- [Synopsys Primewave](#Synopsys-Primewave)
 	- [Transient Analysis](#Transient-Analysis)
 	- [Waveform](#Waveform)
+- [Conclusion](#Conclusion)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
@@ -231,6 +232,21 @@ This is the output waveform.
   <img src="https://user-images.githubusercontent.com/90523478/155857302-c8f35088-a9b6-41b5-aa4b-335bb2c24595.png"></br>
   Fig.15: waveform(b)
 </p>
+
+And by observing the above waveform it is found that multiplication of two input sine waves produces the output waveform like Amplitude modulation so, we can conclude that it
+behaves or is considered as amplitude modulator or it is used in amplitude modulator which produces Amplitude Modulation which is basically the Double -Sideband Suppressed
+Carrier(that is DSB-SC).
+
+# Conclusion:
+From all this, what we observe is that a new fully differential four-quadrant analog multiplier is formed using CMOS by using the Gilbert cell technique which can be used for
+very low voltage and power applications. The designed CMOS four-quadrant multiplier has been represented which operate on a single 1.8v DC power supply. The advantage of this
+Multiplier is that it has low power consumption and it is also suitable for low supply voltages.
+ The drawback in this circuit is that the linear input voltage range is small therefore the input voltage range can be extended using an active attenuator which attenuates the
+ noise signal. However, it also degrades the SNR (that is signal to noise ratio)and linearity characteristics. But for future work, a new method should become or will be
+ implemented or considered to increase the range of input voltage.
+Therefore, this proposed four-quadrant analog multiplier is expected to be used suitably in analog signal processing for example in portable communication equipment, handheld
+movie cameras, radio receivers, etc.
+
 
 # Netlist of the Circuit:
 

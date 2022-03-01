@@ -132,7 +132,7 @@ creating a schematic of the circuit in the View column the same procedure has be
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/155871518-d2c1ae09-3242-4099-b151-4799bb05841d.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/156230060-5cd415ef-f40c-4ce9-bf98-2592985ffd99.jp"></br>
   Fig.5: Library manager
 </p>
 
